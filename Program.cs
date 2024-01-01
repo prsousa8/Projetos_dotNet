@@ -1,4 +1,152 @@
 ﻿using Projetos_dotNet.Models;
+using System.Globalization;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//DICIONÁRIO
+
+// Dictionary<string,string> estados = new Dictionary<string, string>();   //<chave,valor>
+
+// estados.Add("SP","São Paulo");
+// estados.Add("MG","Minas Gerais");
+// estados.Add("BA","Bahia");
+// estados.Add("CE","Ceará");
+// estados.Add("AM","Amazonas");
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"{item.Key} --> {item.Value}");
+// }
+
+// estados.Remove("BA");
+// estados["SP"] = "São Paulo - Valor Alterado";
+// Console.WriteLine("-----------------");
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"{item.Key} --> {item.Value}");
+// }
+
+// string chave = "SP";
+// Console.WriteLine($"Verificar se a chave {chave} já está na pilha");
+
+// if(estados.ContainsKey(chave)){
+//     Console.WriteLine("Chave já existe.");
+// }else{
+//     Console.WriteLine("Chave não existe na pilha.");
+// }
+
+
+
+//PILHA
+// Stack<int> pilha = new Stack<int>();
+
+// pilha.Push(1);
+// pilha.Push(2);
+// pilha.Push(3);
+// pilha.Push(4);
+// pilha.Push(5);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento {pilha.Pop()} do topo");
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+//PILHA
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(1);
+// fila.Enqueue(2);
+// fila.Enqueue(3);
+// fila.Enqueue(4);
+// fila.Enqueue(5);
+
+// foreach (int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento {fila.Dequeue()}");
+// foreach (int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+//new ExemploExcecao().Metodo1();
+
+// try{
+//     string[] Linhas = File.ReadAllLines("Arquivos/ArquivoLeitura.txt");
+
+//     foreach (string linha in Linhas)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// catch(Exception ex){
+//     Console.WriteLine($"Ocorreu uma exceção genérica: {ex.Message}");
+// }finally{
+//     Console.WriteLine("Você chegou até aqui.");
+// }
+
+
+
+
+
+//FORMAS DE REPRESENTAR DATA E HORA
+// DateTime data = DateTime.Now;
+// Console.Write(data);
+// Console.Write("\n"+data.ToString("HH:mm"));
+// Console.Write("\n"+data.ToShortDateString());
+// Console.Write("\n"+data.ToShortTimeString());
+
+// DateTime newData = DateTime.Parse("17/02/2024 14:23");
+// Console.WriteLine("\n"+newData);
+
+//REPRESENTAÇÃO
+// int x = 344555;
+// Console.WriteLine(x.ToString("##-##-##"));
+
+
+//PORCENTAGEM
+
+// double x = .2334;
+// Console.WriteLine(x.ToString("P"));
+
+
+
+//VALORES MONETARIOS
+
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR"); //opcional
+
+// decimal ValorMonetario = 1234.43M;
+// Console.WriteLine($"{ValorMonetario:C}"); //Opção 1
+// Console.WriteLine(ValorMonetario.ToString("C",CultureInfo.CreateSpecificCulture("en-US")));
+
+
+
 
 // DEFINIR CASAS DECIMAIS
 // double x = 2.0/3;

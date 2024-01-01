@@ -12,3 +12,4 @@ C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\refint\Projetos_dotNet.d
 C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.pdb
 C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.genruntimeconfig.cache
 C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\ref\Projetos_dotNet.dll
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.sourcelink.json
