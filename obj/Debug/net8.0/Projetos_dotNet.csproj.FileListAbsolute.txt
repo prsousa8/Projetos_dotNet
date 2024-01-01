@@ -1,0 +1,14 @@
+C:\Users\paulo\Desktop\Projetos_dotNet\bin\Debug\net8.0\Projetos_dotNet.exe
+C:\Users\paulo\Desktop\Projetos_dotNet\bin\Debug\net8.0\Projetos_dotNet.deps.json
+C:\Users\paulo\Desktop\Projetos_dotNet\bin\Debug\net8.0\Projetos_dotNet.runtimeconfig.json
+C:\Users\paulo\Desktop\Projetos_dotNet\bin\Debug\net8.0\Projetos_dotNet.dll
+C:\Users\paulo\Desktop\Projetos_dotNet\bin\Debug\net8.0\Projetos_dotNet.pdb
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.AssemblyInfoInputs.cache
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.AssemblyInfo.cs
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.dll
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\refint\Projetos_dotNet.dll
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.pdb
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.genruntimeconfig.cache
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\ref\Projetos_dotNet.dll
