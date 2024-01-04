@@ -7,13 +7,19 @@ namespace Projetos_dotNet.Models
 {
     public class Pessoa
     {
+        //Construtor
         public Pessoa(string nome, string sobrenome, int idade){
             Nome = nome;
             Sobrenome = sobrenome;
             Idade = idade;
         }
-        private string _nome;
-        private int _idade;
+        //Desconstrutor
+        public void Deconstruct(out string nome, out string sobrenome){
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
+        private string _nome = "";
+        private int _idade = 0;
         public string Nome { 
             get{
                 return _nome.ToUpper(); //Body Expressions --> get => _nome.ToUpper();

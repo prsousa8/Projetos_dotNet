@@ -1,6 +1,10 @@
 ﻿using Projetos_dotNet.Models;
 using System.Globalization;
 
+//IF TERNÁRIO
+int num = 15;
+bool EhPar = num % 2 == 0;
+Console.WriteLine($"O numero {num} é "+(EhPar?"Par":"Ímpar"));
 
 
 
@@ -8,8 +12,43 @@ using System.Globalization;
 
 
 
+//DESCONSTRUTOR
+// Pessoa p1 = new Pessoa("Paulo","Ricardo",15);
+// (string nome, string sobrenome) = p1;
+// Console.WriteLine($"{nome} {sobrenome}");
 
 
+
+
+//Metodo que retorna uma tupla
+// LeituraArquivo arquivo = new LeituraArquivo();
+// //NOTA: Usa-se '_' para descartar uma variavel Ex.: var (sucesso,linhas,_)
+// var (sucesso,linhas,quantidade) = arquivo.LerArquivo("Arquivos/ArquivoLeitura.txt");
+
+// if(sucesso){
+//     foreach (string item in linhas)
+//     {
+//         Console.WriteLine(item);
+//     }
+// }else{
+//     Console.WriteLine("Não foi possivel ler o arquivo");
+// }
+
+
+
+
+
+//TUPLA
+
+// (int,string,string,decimal) tupla = (1,"Paulo","Santos",1.74M); //Forma 1 
+// (int id,string nome,string sobrenome,decimal altura) tupla = (1,"Paulo","Santos",1.74M);
+// ValueTuple<int,string,string,decimal> outroExemplo = (1,"Paulo","Santos",1.74M); //Forma 2
+// var outroExemploCreate = Tuple.Create(1,"Paulo","Santos",1.74M); //Forma 3
+
+// Console.WriteLine($"ID: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
 
 
 
