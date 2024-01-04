@@ -1,14 +1,51 @@
 ﻿using Projetos_dotNet.Models;
 using System.Globalization;
+using Newtonsoft.Json;
+
+//DESERIALIZAÇÃO
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas3.json");
+
+List<Vendas> listaVendas = JsonConvert.DeserializeObject<List<Vendas>>(conteudoArquivo);
+
+foreach (var item in listaVendas)
+{
+    Console.WriteLine($"Id: {item.Id}, Produto: {item.Produto}, Preço: {item.Preco}, Data: {item.DataVenda}");
+}
+
+
+
+
+
+
+//SERIALIZAÇÃO
+
+// DateTime data = DateTime.Now;
+
+// Vendas venda1 = new Vendas(123,"Produto de Construção",78.00M,data);
+// Vendas venda2 = new Vendas(456,"Software",7800.00M,data);
+
+// List<Vendas> listVendas = new List<Vendas>();
+// listVendas.Add(venda1);
+// listVendas.Add(venda2);
+
+// string serializado_1 = JsonConvert.SerializeObject(venda1);
+// string serializado_2 = JsonConvert.SerializeObject(venda2, Formatting.Indented);
+// string serializado_3 = JsonConvert.SerializeObject(listVendas, Formatting.Indented);
+
+// File.WriteAllText("Arquivos/vendas1.json",serializado_1);
+// File.WriteAllText("Arquivos/vendas2.json",serializado_2);
+// File.WriteAllText("Arquivos/vendas3.json",serializado_3);
+
+// Console.WriteLine(serializado_1);
+// Console.WriteLine(serializado_2);
+
+
 
 //IF TERNÁRIO
-int num = 15;
-bool EhPar = num % 2 == 0;
-Console.WriteLine($"O numero {num} é "+(EhPar?"Par":"Ímpar"));
-
-
-
-
+// int num = 15;
+// bool EhPar = num % 2 == 0;
+// Console.WriteLine($"O numero {num} é "+(EhPar?"Par":"Ímpar"));
 
 
 

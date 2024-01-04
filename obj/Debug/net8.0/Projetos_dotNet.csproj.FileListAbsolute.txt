@@ -13,3 +13,6 @@ C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.pdb
 C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.genruntimeconfig.cache
 C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\ref\Projetos_dotNet.dll
 C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.sourcelink.json
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.csproj.AssemblyReference.cache
+C:\Users\paulo\Desktop\Projetos_dotNet\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\paulo\Desktop\Projetos_dotNet\obj\Debug\net8.0\Projetos_dotNet.csproj.CopyComplete
