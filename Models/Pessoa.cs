@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace Projetos_dotNet.Models
 {
+    /// <summary>
+    /// Representa uma pessoa física
+    /// </summary>
     public class Pessoa
     {
         //Construtor
@@ -43,7 +46,7 @@ namespace Projetos_dotNet.Models
                 _idade = value;
             } 
         }
-
+        
         public void Apresentar(){
             Console.WriteLine($"Olá, meu nome é {NomeCompleto}, e tenho {Idade} anos");
         }
